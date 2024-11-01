@@ -127,7 +127,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: " ",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -153,12 +153,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: " ",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: " ",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -187,7 +187,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: " ",
           icon: <Icons.github className="size-3" />,
         },
       ],

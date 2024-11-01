@@ -182,7 +182,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: " ",
           icon: <Icons.globe className="size-3" />,
         },
         {

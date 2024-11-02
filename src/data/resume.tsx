@@ -64,7 +64,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Technical Member",
-      logoUrl: "/",
+      logoUrl: "/CIE_logo.jpg",
       start: "September 2023",
       end: "August 2024",
       description:
@@ -76,7 +76,7 @@ export const DATA = {
       href: "https://shopify.com",
       location: "Remote",
       title: "Technical Mentor",
-      logoUrl: "/",
+      logoUrl: "/CIE_logo.jpg",
       start: "September 2023",
       end: "July 2024",
       description:

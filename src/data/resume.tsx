@@ -227,7 +227,7 @@ export const DATA = {
   hackathons: [
     {
       title: "G-Hack",
-      dates: "October 25rd - 26th, 2023",
+      dates: "October 25th - 26th, 2023",
       location: "Hyderabad, India",
       description:
         "Developed Mobile app for wool farmers to upload real-time wool processing data and process the wool delivery",

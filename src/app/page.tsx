@@ -8,14 +8,21 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import Meteors from "@/components/ui/meteors";
+
 // import Globe from "@/components/ui/globe";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
+    
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <section id="hero">
+      <Meteors number={30} />
+    
+
+      <section id="hero">  {/* This is the hero Section*/}
+
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
@@ -165,7 +172,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Now, I participate in {DATA.hackathons.length}+ hackathons. People from around the country come together and build incredible things in just 2-3 days. It is eye-opening to see the endless possibilities created by a group of motivated and passionate individuals.
+                I have participated in {DATA.hackathons.length} hackathons. People from around the country come together and build incredible things in just 2-3 days. It is eye-opening to see the endless possibilities created by a group of motivated and passionate individuals.
                 </p>
               </div>
             </div>
